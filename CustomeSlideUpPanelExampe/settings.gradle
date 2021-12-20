@@ -1,3 +1,0 @@
-include ':sample-library'
-include ':app'
-rootProject.name = "CustomeSlideUpPanelExampe"
