@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sizeTwo">2sp</dimen>
+    <dimen name="sizeFour">4sp</dimen>
+    <dimen name="sizeSix">6sp</dimen>
+    <dimen name="sizeEight">8sp</dimen>
+    <dimen name="sizeTen">10sp</dimen>
+    <dimen name="sizeTwelve">12sp</dimen>
+    <dimen name="sizeFourteen">14sp</dimen>
+    <dimen name="sizeSixteen">16sp</dimen>
+    <dimen name="sizeEighteen">18sp</dimen>
+    <dimen name="sizeTwenty">20sp</dimen>
+    <dimen name="sizeTwentyFour">24sp</dimen>
+    <dimen name="sizeTwentySix">26sp</dimen>
+    <dimen name="sizeTwentyEight">28sp</dimen>
+    <dimen name="sizeThirty">30sp</dimen>
+    <dimen name="sizeThirtyTwo">32sp</dimen>
+    <dimen name="sizeThirtySix">36sp</dimen>
+    <dimen name="sizeForty">40sp</dimen>
+    <dimen name="sizeFortySix">46sp</dimen>
+    <dimen name="sizeFifty">50sp</dimen>
+    <dimen name="sizeFiftyFive">55sp</dimen>
+    <dimen name="sizeSixty">60sp</dimen>
+
+</resources>

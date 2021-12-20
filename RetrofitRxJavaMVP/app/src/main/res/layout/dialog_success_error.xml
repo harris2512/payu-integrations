@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/sizeSixteen">
+
+
+    <!--    Title   -->
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sizeEighteen"
+        android:textStyle="bold" />
+
+    <!--    Message -->
+    <TextView
+        android:id="@+id/tv_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_title"
+        android:maxLines="3"
+        android:paddingTop="@dimen/sizeTwelve"
+        android:paddingBottom="@dimen/sizeTwelve"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sizeFourteen" />
+
+
+    <TextView
+        android:id="@+id/dialog_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_dialog_message"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/sizeTwelve"
+        android:padding="@dimen/sizeTwelve"
+        android:text="@string/txt_ok"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryAppDark"
+        android:textSize="@dimen/sizeFourteen"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>
